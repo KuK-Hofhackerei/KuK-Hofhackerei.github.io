@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   output: "static",
-  site: "https://token-template.deno.dev",
+  site: "https://kuk-Hofhackerei.github.io",
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
     shikiConfig: {
