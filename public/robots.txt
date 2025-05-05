@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://token-template.deno.dev/sitemap-index.xml

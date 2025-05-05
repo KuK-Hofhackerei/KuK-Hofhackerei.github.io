@@ -17,13 +17,59 @@ import { QUOTE, SITE_TITLE } from "@/consts";
       </h2>
     </div>
   </div>
-  <div>
-    <Image
-      alt="Hero"
-      src={HeroImg}
-      class="brightness-200 w-full scale-90 invert"
-    />
-  </div>
+  <pre style="font-family: mono !important" class="text-sm">
+                                          ..                  ..
+                                     .;x .                x+
+                                   x;+;x;;x.          .X;;+++;x.
+                                   ;XXXXxX+            +XxXXXX;
+              ;:                  .;XX$X$$X:.:.    .:.:x$$$$X$;.                  :;
+              :$$+:;.    +:     .x$X$X$$X$XX:        :X$X$X$XX$$X.     :+    .;:+$$;
+               ;X$$$$$$$XXX;  .; +X;;++xX$$$$x.  . .+$X$$Xx++;;Xx.;.  ;XXX$$$$$$$X;
+            :;;;;+XXX$X$X$X$x..X+++x++x+xX$X$XX;  ;X$X$X$x+x++x+++X..x$X$X$X$XXX+;;;;:
+       +X:+:;+X$XX$$$X$X$$$X$X.          .$X$$X;  :X$$X$:           X$X$X$X$X$X$XX$X+;:+:Xx
+        +X$XXX$$XXX$X$$$X$X$XXX:          ;$X$$x  +$X$$;          .XX$$X$$$X$X$XXX$$XX$XX+
+          :;;;;;xX$X$X$X$X$$$$$+  .X+:;. .+$$X$X::X$$X$+: .;:+X:  +$$X$$X$X$$$X$Xx;;;;;:
+       .::;;::X$X$$$X$X$X$XX:X$X  :$:.::;XXXXX$$;;$XXXXXX;::.:$;  x$X;x$X$$X$X$$$X$X::;;::.
+            +X$$$XxX$$$X$$$+  .;XXX$$$+:       .xx.       :+X$$XXx+.  ;$$X$X$$X+X$X$X+.
+    .;;:xXX$$X$X+x$X$X$X$X$X$+  :X:                            :X:  +$X$X$X$X$X$x+X$$X$XXx:;;.
+     :X$$XX$$X;;x$X$X$X$X$X$Xx.  :X:                          .X:  .xX$X$$$X$X$X$x;;X$$XX$$X:
+         :;::+.X$X$$$$$X$$$XX::X$$$;           :$$:           ;$$$X::X$$X$X$$$$$XXX+x+xX+.
+          :; +$X$$$xXX$$X$X$$X$X$$$+         :+:$$:+:         +$X$X$X$X$X$$XXxx+x+x+x+x+x+xx;
+       :;: :X$X$X$+xX$X$$X$X$X$$X$$X      .x$XX:$$:XX$x.      x$$X$X$X$X$X$$Xx+x++xXXX;;+x++x+:
+     ..  .+X$X$+xxX$$$$X$$X$$$X$X$Xx     :$XX; :$$: :XX$:     x$X$$$X$$$X$Xx+x+xxx+$X$X+ .+x+x+;
+       .;$X$X$+.xX$X$X$X$X$X$X$X$X$x    .XXX   .;;.   X$X.    +$$X$X$X$X$Xxx+x+XXx.;$$XX$;.+x+xx:
+  .:;;X$X$XXX:+++$X$X$;xX$$X$X$$X$$+    :X$;          ;X$:    +$X$X$$X$$Xx+x++X$$+++:X$$X$XXx++++.
+   :xX$XX$X: +:+$$$X$;+x$X$$XXX$$$x+    :XX+          +$X:    +x$$$XXX$$X+x+xx$X$$+:+ :X$XX$X+x++:
+           :+.+$X$X$+;+$$$X$x+x$XX+X     +$$+.      .+$$+     x+XX$x+x$Xx+x+++$$X$X+.;:     :x+x+;
+         :x. :XXX$$;+;$$X$$X;:X$$X;X:     ;$X$x:..:x$X$;     :$;X$$X:;XX+x+x++:$X$$$: .+:   :+x+x;
+      .;;. +x+x+xXx;;XX$X$X;+;XX$X;;X.     .;X$$$$$$X;.     .X;;XX$X++;X+x++x;+x$Xxxx+; .;;.:x+x+;
+     .   :x+x+x+xx:;;$$X$XX;+.X$XX::XX:         ..         :XX::X$XX.;;++x++X;;:X+x+x+x+    ;+x+x;
+       .+x+x+x+x++x:$X$$X$++.+$$$x:+$$$x.                .x$X$+:x$$$+.x+x+x+X$:+;+x+x+x+.   +x++x:
+      ++x+xxXX+x+x+;$$X$$X:+:XXXX:X$X$$+x$+.          .+$X+$$X$X:XX$X:+x+x+x$$;.X+x+x+xX+  .+x+x+.
+    :+x+x+XX$X+x+x+X$X$XX:;X$$+:X$$X$XX$$X$$$XXxx+xXX$$X$X$X$$X$$X:+$$X+x+xx$X$;:+ :X$X$$Xx;x+x++.
+  .+x+x+XXX$+.:x+x+x$$X$X:X.  ;$X$X$$xx$X$X$X$$X$$$X$X$$X$XX+$$X$X$+  :++x+x$X$$;:+ .+$XX$$x+x+x;
+    ;x+;:::   +x+x++X$XX;;; :XX$$X$XX.;$$X$$$X$$X$X$$$X$$$$+.X$X$$X$X:.++x+xX$$XX:.+   ::.;x+x++
+            :+.++x+xx$;:.+ :X$$X$$X$:  x$$X$xXX$X$$XXx$X$Xx. :$$X$X$XX;+x+x+XX$$X$+.+:    ++x++:
+          .;:  :x+x+xx  +::XXX:.;X$x   ;$$X$;X$X$X$XX;$$X$;   +$X;.:XXX;+x+xx$X$$X:  :;. +x+xx+
+         :.   :XX+x+x+.+:;$$;   .+xXx+X$X$$x.XX$$$X$X.x$$$$X+xXX+.   ;$$+x+x+x$X$XX:   .+x+x++
+             +$$XxX$$Xx.xXX.      .x$$$$$$; :X$X$X$XX: :$$$$$$X.      .X$Xx+x++xX$$$+:++x+xx;
+           .x$X$$XXxxX$X$:        .X;x:..+ ;Xx$$X$X$x$; +...x:X.        :XXXXxX$XXx++x+x+x+.
+        ;x$$X$$xx$Xxx+XX:;    ::    ;.   :XX;+$X$$$$x;XX;   .;.   ::    :.+$$X$X$XxX++xXx;
+         .:;;:  .+$Xxx+xX$X:   +X.          :$x$X$Xx$:          .X+   .X$XX;:XXX$$+.:;;:.
+                  .+x+x++:$$;X$$$$X:       .$x;$$X$;x$:       :X$$$$X;$$; ;.
+                   .+x+x+x$$$$;.  ::      :XX:xX$$$x:XX:      :;  .;$$X$XX;
+                    ;x+x+X$X$:.. ;+.     ;$Xx;x$X$$X;xX$+     .+; ..:X$$x.:
+                    .++x++XXX+$XXx+.   :X$+ .x$$X$X$x. +$$:   .X$$$$+XX$:
+                     ;x+x+xx+x+x+x++;x$XX:  :X$X$X$X$;  :X$$x;;+ .X$$$XXX:
+                 .:;++x+x+x+x+++xXXXX$X;  .+X$$$X$$$$X+.  :X$$X+XX$X$XX$$X+:
+            :;+xx++x+x+x+++;:.:;;+$+: . :+$$$XX+$$+XXX$$+: . :+$+;;:.   .:.
+            :x+x+xx++:.          .X+  +$$$X$X$::$$;:$$X$$$$+  +X:
+             ;;:.                     :x$$X$+  ;$$;  ;$X$$X:
+                                     .X+  .x+:.X$XX.:+x.  ;X.
+                                      ;+;   .xX+X$+Xx.   ;+;
+                                                ;$+
+                                               .;:
+  </pre>
 </section>
 
 <script is:inline>
