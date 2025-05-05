@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   output: "static",
-  site: "https://kuk-Hofhackerei.github.io",
+  site: "https://hofhackerei.at",
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
     shikiConfig: {
