@@ -3,7 +3,11 @@ export const SITE_DESCRIPTION =
   `KuK Hofhackerei is Austria's CTF merger team. We participate in CTF events from around the world with our member teams We_0wn_y0u, LosFuzzys, SIGFLAG, /dev/stp and Team Austria.`;
 
 export const MEMBER_TEAMS = [
-  "We_0wn_y0u", "LosFuzzys", "SIGFLAG", "/dev/stp", "Team Austria"
+  {"name": "We_0wn_y0u", "link": "https://w0y.at/"},
+  {"name": "LosFuzzys", "link": "https://losfuzzys.net/"},
+  {"name": "SIGFLAG", "link": "https://sigflag.at/"},
+  {"name": "/dev/stp", "link": "https://www.fhstp.ac.at/de/studium/informatik-security/it-security"}, // TODO add proper link
+  {"name": "Team Austria", "link": "https://acsc.land/team-at/"},
 ];
 export const ABOUT_ME =
   `lorem ipsum dolor sit amet`;
