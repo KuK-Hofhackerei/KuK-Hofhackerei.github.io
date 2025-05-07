@@ -1,6 +1,6 @@
 export const SITE_TITLE = "KuK Hofhackerei";
 export const SITE_DESCRIPTION =
-  `Token Astro + Tailwind CSS starter featuring a sleek black-and-white terminal-inspired design, with support for RSS, sitemap, MD/MDX blog posts static content.`.trim();
+  `KuK Hofhackerei is Austria's CTF merger team. We participate in CTF events from around the world with our member teams We_0wn_y0u, LosFuzzys, SIGFLAG and /dev/stp.`;
 
 export const MEMBER_TEAMS = [
   "We_0wn_y0u", "LosFuzzys", "SIGFLAG", "/dev/stp"
