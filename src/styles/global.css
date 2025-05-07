@@ -4,6 +4,14 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("/fonts/NotoSansMono-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: "VCR", monospace !important;
 }

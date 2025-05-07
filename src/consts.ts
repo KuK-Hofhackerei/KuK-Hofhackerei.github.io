@@ -8,7 +8,7 @@ export const MEMBER_TEAMS = [
 export const ABOUT_ME =
   `lorem ipsum dolor sit amet`;
 export const GITHUB_USERNAME = "KuK-Hofhackerei";
-export const QUOTE = "The Austrian CTF Merger Team";
+export const QUOTE = "Austria's CTF Merger Team";
 export const NAV_LINKS: Array<{ title: string; href?: string }> = [
   {
     title: "CTFtime",
