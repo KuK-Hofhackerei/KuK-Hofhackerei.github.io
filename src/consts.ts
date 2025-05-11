@@ -10,7 +10,7 @@ export const MEMBER_TEAMS = [
   {"name": "Team Austria", "link": "https://acsc.land/team-at/"},
 ];
 export const ABOUT_ME =
-  `lorem ipsum dolor sit amet`;
+  `KuK Hofhackerei is a collective formed by the merger of several Austrian CTF teams, united to take on greater challenges together.`;
 export const GITHUB_USERNAME = "KuK-Hofhackerei";
 export const QUOTE = "Austria's CTF Merger Team";
 export const NAV_LINKS: Array<{ title: string; href?: string }> = [
