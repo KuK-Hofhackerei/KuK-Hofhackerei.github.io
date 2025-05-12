@@ -7,8 +7,6 @@ Author: 0x6fe1be2
 ---
 Author: [0x6fe1be2](https://github.com/gfelber)
 
-[TOC]
-
 **Description:**
 > You have the great pleasure of sampling our HXP HACK-4 AI1337 processor - an intersection of Security and AI. \
 > Like it? We have many in the pipeline!
