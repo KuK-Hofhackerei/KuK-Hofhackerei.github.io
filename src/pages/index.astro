@@ -50,6 +50,7 @@ const posts = (await getCollection("blog")).sort(
             title={post.data.title}
             excerpt={post.data.description}
             date={post.data.pubDate}
+            author={post.data.author}
           />
         ))
       }

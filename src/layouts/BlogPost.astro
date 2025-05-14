@@ -32,9 +32,10 @@ const { title, pubDate, updatedDate, heroImage } = Astro.props;
           }
         </div>
         <h1>{title}</h1>
+        <slot name="toc"/>
         <hr />
       </div>
-      <slot />
+      <slot name="blog-content"/>
     </div>
   </article>
 </Layout>
