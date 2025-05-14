@@ -25,8 +25,29 @@ const posts = (await getCollection("blog")).sort(
     </div>
   </Section>
 
-  <!-- Todo sponsors -->
-  <!-- Once we have some, add our sponsors here -->
+  <Section
+    title="Support us"
+  >
+    <!-- TODO Once we have some, add our sponsors here -->
+    <div class="w-full grid place-items-center">
+      <div
+        class="max-w-4xl text-xl md:text-lg opacity-90 text-center justify-evenly"
+      >
+        We offer multiple levels of sponsorship with increasing benefits and visibility.
+        Each tier builds upon the previous and includes the benefits described below.
+        We are also happy to tailor a custom sponsorship package to match your
+        brand’s goals and values.
+      </div>
+    </div>
+    <div class="flex flex-row justify-center items-center mt-6 items-stretch">
+      <a href="/KuK%20Hofhackerei%20-%20DEF%20CON%2033%20Sponsorship%20%28DE%29.pdf" target="_blank" class="mr-8 w-1/6 border-2 p-3 rounded-lg flex items-center justify-center">
+        Become a supporter: Download our brochure
+      </a>
+      <a href="mailto:mailto:kukhofhackerei@gmail.com" class="w-1/6 border-2 p-3 rounded-lg flex items-center justify-center">
+        Questions: Contact us directly
+      </a>
+    </div>
+  </Section>
 
   <Section title="Our member teams" full_screen={false}>
     <div class="w-full grid place-items-center">
