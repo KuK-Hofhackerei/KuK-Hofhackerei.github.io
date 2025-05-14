@@ -1539,7 +1539,7 @@ So next we need to create some CPL0 Shellcode.
 
 #### Corrupt MSR
 
-Let's start our simple and just overwrite the MSRs with the respective max values and to our luck it works.
+Let's start out simple and just overwrite the MSRs with the respective max values and to our luck it works.
 
 *crpt_msr.S*
 ```assembly
