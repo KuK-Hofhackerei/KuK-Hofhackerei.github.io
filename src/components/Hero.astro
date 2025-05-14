@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import HeroImg from "@/hero.png";
+import hofhackerei from "@/assets/hofhackerei.svg";
 import { QUOTE, SITE_TITLE } from "@/consts";
 ---
 
@@ -17,7 +17,13 @@ import { QUOTE, SITE_TITLE } from "@/consts";
       </h2>
     </div>
   </div>
-  <image src="/hofhackerei.svg" style="height:80vh" />
+  <div>
+    <Image
+        alt="A two-headed eagle holding the digits 0 and 1 in its claws."
+        src={hofhackerei}
+        class="w-full"
+    />
+  </div>
 </section>
 
 <script is:inline>
