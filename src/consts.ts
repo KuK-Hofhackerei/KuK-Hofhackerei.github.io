@@ -10,7 +10,7 @@ export const MEMBER_TEAMS = [
   {"name": "Team Austria", "link": "https://acsc.land/team-at/"},
 ];
 export const ABOUT_ME =
-  `KuK Hofhackerei is a collective formed by the merger of several Austrian CTF teams, united to take on greater challenges together.`;
+  `KuK Hofhackerei is a collective of Austrian cybersecurity talents, drawing from top universities such as TU Wien, University of Vienna, JKU, TU Graz and FH St. Pölten. In the annual DEF CON CTF Qualifiers, we proudly secured 6th place out of more than a thousand elite teams worldwide. This achievement grants us the privilege to compete onsite at the DEF CON Finals during the prestigious conference in Las Vegas.`;
 export const GITHUB_USERNAME = "KuK-Hofhackerei";
 export const QUOTE = "Austria's CTF Merger Team";
 export const NAV_LINKS: Array<{ title: string; href?: string }> = [
