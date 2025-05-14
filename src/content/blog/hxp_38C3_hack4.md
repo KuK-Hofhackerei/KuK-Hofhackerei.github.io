@@ -2,7 +2,7 @@
 title: "Writeup: hxp_silicon_foundaries_hack4"
 description: "A multi stage exploitation challenge that requires you to exploit custom x86-64 instructions to gain privilege escalation under Linux and then escape the QEMU VM."
 pubDate: "Dec 30 2024"
-heroImage: "/hxp_38C3_hack4.png"
+heroImage: "/blog/hxp_38C3_hack4/hxp_38C3_hack4.png"
 author: "0x6fe1be2"
 ---
 
