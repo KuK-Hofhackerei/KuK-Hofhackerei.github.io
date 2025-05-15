@@ -1,5 +1,5 @@
 ---
-title: "Going to DEFCON Finals in LV"
+title: "Going to DEFCON Finals in Las Vegas"
 description: "We’re incredibly excited and proud to announce that we qualified for the DEF CON CTF Finals in Las Vegas this August!"
 pubDate: "Apr 14 2025"
 heroImage: "/blog/defcon_quals25/Defcon_quals25_hero.webp"
