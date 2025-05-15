@@ -1,4 +1,4 @@
-export const SITE_TITLE = "KuK Hofhackerei";
+export const SITE_TITLE = "KuK Hof\u00ADhackerei";
 export const SITE_DESCRIPTION =
   `KuK Hofhackerei is Austria's CTF merger team. We participate in CTF events from around the world with our member teams We_0wn_y0u, LosFuzzys, SIGFLAG, /dev/stp and Team Austria.`;
 
