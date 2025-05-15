@@ -4,7 +4,7 @@ import hofhackerei from "@/assets/hofhackerei.svg";
 import { QUOTE, SITE_TITLE } from "@/consts";
 ---
 
-<div class="hero-bg hidden md:block h-screen hero-bg-animate absolute top-0"></div>
+<div class="hero-bg hidden md:block h-screen hero-bg-animate absolute top-0 overflow-hidden"></div>
 <section
   class="h-screen !z-[20] relative w-full flex flex-col xl:flex-row justify-around items-center"
   id="hero"
@@ -27,7 +27,7 @@ import { QUOTE, SITE_TITLE } from "@/consts";
 
   setInterval(() => {
     let binaryText = "";
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 1500; i++) {
       binaryText += Math.floor(Math.random() * 2).toString();
     }
     hero_bg.textContent = binaryText;
