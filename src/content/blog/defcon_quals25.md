@@ -6,12 +6,11 @@ heroImage: "/blog/defcon_quals25/Defcon_quals25_hero.webp"
 author: "KuK"
 ---
 
-We are proud to announce our success in the DEFCON Quals 2025!
-Our dedicated team worked tirelessly around the clock to overcome the challenges presented throughout the competition.
-We performed strongly across all categories—including LiveCTF, reverse engineering, exploitation, and miscellaneous challenges—securing our position among the top teams.
+We’re pleased to share that our team has qualified for DEF CON Finals 2025 in Las Vegas.
 
-This achievement marks not the end, but the beginning.
-We now set our sights on DEFCON in Las Vegas, ready to compete at the highest level.
+After a challenging and rewarding weekend, we secured **6th place** in the DEFCON Qualifiers 2025, earning a spot among the top teams heading to the finals. The competition tested a wide range of skills across categories such as LiveCTF, reverse engineering, exploitation, and miscellaneous challenges. It required long hours, focused effort, and close teamwork.
+
+This achievement is a meaningful milestone, but it’s only the beginning. We now shift our focus to DEFCON in Las Vegas, where we’ll compete on the global stage among the best cybersecurity talent in the world. We're looking forward to learning, collaborating, and pushing our capabilities even further.
 
 <p align="center" width="100%">
 	<img src="/blog/defcon_quals25/scoreboard.jpeg" alt=Scoreboard>
