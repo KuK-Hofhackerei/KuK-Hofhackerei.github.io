@@ -12,3 +12,7 @@ We performed strongly across all categories—including LiveCTF, reverse enginee
 
 This achievement marks not the end, but the beginning.
 We now set our sights on DEFCON in Las Vegas, ready to compete at the highest level.
+
+<p align="center" width="100%">
+	<img src="/blog/defcon_quals25/scoreboard.jpeg" alt=Scoreboard>
+</p>
