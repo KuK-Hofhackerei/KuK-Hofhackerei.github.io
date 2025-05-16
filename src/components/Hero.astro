@@ -33,6 +33,7 @@ import { QUOTE, SITE_TITLE } from "@/consts";
     let binaryText = hero_bg.textContent;
     if (binaryText == null)
       return;
+    binaryText = binaryText.replace("\n", "");
     hero_bg.textContent = binaryText.substr(SHIFT_SIZE) + binaryText.substr(0, SHIFT_SIZE);
   }
 
