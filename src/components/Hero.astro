@@ -22,14 +22,19 @@ import { QUOTE, SITE_TITLE } from "@/consts";
   />
 </section>
 
-<script is:inline>
-  const hero_bg = document.querySelector(".hero-bg-animate");
-
-  setInterval(() => {
+<script>
+  function updateBgAnimate() {
+    let hero_bg = document.querySelector(".hero-bg-animate");
     let binaryText = "";
     for (let i = 0; i < 1500; i++) {
       binaryText += Math.floor(Math.random() * 2).toString();
     }
     hero_bg.textContent = binaryText;
-  }, 300);
+  }
+
+  updateBgAnimate();
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setInterval(() => updateBgAnimate(), 300);
+  });
 </script>
