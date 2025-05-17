@@ -23,6 +23,10 @@ export const NAV_LINKS: Array<{ title: string; href?: string }> = [
     href: "//x.com/kukhofhackerei",
   },
   {
+    title: "Bluesky",
+    href: "//bsky.app/profile/did:plc:yawykwgqdwpuua47fgtyjcja",
+  },
+  {
     title: "Blog",
   },
 ];
