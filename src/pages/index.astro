@@ -1,12 +1,14 @@
 ---
 import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import Hero from "@/components/Hero.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
+import SubSection from "@/components/SubSection.astro";
 import Section from "@/components/Section.astro";
 import BlogPostCard from "@/components/BlogPostCard.astro";
 import Layout from "@/layouts/Layout.astro";
 import { ABOUT_ME } from "@/consts";
-import { MEMBER_TEAMS } from "../consts";
+import { MEMBER_TEAMS, SUPPORTERS } from "../consts";
 const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
@@ -50,7 +52,7 @@ const posts = (await getCollection("blog")).sort(
           )
         </span>
       </div>
-      <a href="mailto:mailto:kukhofhackerei@gmail.com" class="w-1/6 border-2 p-3 rounded-lg flex items-center justify-center  min-w-80 text-center">
+      <a href="mailto:kukhofhackerei@gmail.com" class="w-1/6 border-2 p-3 rounded-lg flex items-center justify-center min-w-80 text-center">
         Questions: Contact us directly
       </a>
     </div>
@@ -85,4 +87,25 @@ const posts = (await getCollection("blog")).sort(
     </div>
   </Section>
 
+  <Section title="Our Supporters" screen_width={false} className="w-2/3 m-auto">
+    {
+      SUPPORTERS.map((tier) => (
+        <SubSection title={tier.tier}>
+          <div class="w-full flex flex-wrap">
+            {tier.supporters.map((supporter) => (
+              <div class="w-1/2 p-8">
+                <a href={supporter.href} class="w-full">
+                  <Image
+                    src={supporter.image}
+                    alt={supporter.name}
+                    className={`w-full max-h-${tier.imgSize}`}
+                  />
+                </a>
+              </div>
+            ))}
+          </div>
+        </SubSection>
+      ))
+    }
+  </Section>
 </Layout>

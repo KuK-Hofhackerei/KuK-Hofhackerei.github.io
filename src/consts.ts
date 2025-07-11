@@ -30,3 +30,83 @@ export const NAV_LINKS: Array<{ title: string; href?: string }> = [
     title: "Blog",
   },
 ];
+import dynatrace from "@/assets/dynatrace.png";
+import erstebank from "@/assets/erstebank.svg";
+import bosch from "@/assets/bosch.svg";
+import siemens from "@/assets/siemens.svg";
+import tuwien from "@/assets/tuwien.svg";
+import tugraz from "@/assets/tugraz.svg";
+import sba from "@/assets/sba.svg";
+import fhstp from "@/assets/fhstp.svg";
+import jku from "@/assets/jku.svg";
+
+import type { ImageMetadata } from "astro";
+export const SUPPORTERS: Array<{
+  tier: string;
+  imgSize: string;
+  supporters: Array<{ name: string; image: ImageMetadata; href: string }>;
+}> = [
+  {
+    tier: "Platinum",
+    imgSize: "24",
+    supporters: [
+      {
+        name: "dynatrace",
+        image: dynatrace,
+        href: "https://www.dynatrace.com/",
+      },
+      {
+        name: "Erste Bank",
+        image: erstebank,
+        href: "https://www.erstebank.at/",
+      },
+    ],
+  },
+  {
+    tier: "Silver",
+    imgSize: "16",
+    supporters: [
+      {
+        name: "Bosch",
+        image: bosch,
+        href: "https://www.bosch.at/",
+      },
+      {
+        name: "Siemens",
+        image: siemens,
+        href: "https://siemens.at",
+      },
+    ],
+  },
+  {
+    tier: "Universities",
+    imgSize: "16",
+    supporters: [
+      {
+        name: "TU Wien CYSEC",
+        image: tuwien,
+        href: "https://tuwien.ac.at",
+      },
+      {
+        name: "TU Graz ISEC",
+        image: tugraz,
+        href: "https://tugraz.at",
+      },
+      {
+        name: "SBA-Research",
+        image: sba,
+        href: "https://sba-research.org",
+      },
+      {
+        name: "FH St. Pölten",
+        image: fhstp,
+        href: "https://www.fhstp.ac.at",
+      },
+      {
+        name: "Johannes Kepler University Linz",
+        image: jku,
+        href: "https://www.jku.at",
+      },
+    ],
+  },
+];
