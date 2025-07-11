@@ -3,24 +3,28 @@ type Props = {
   title: string;
   full_screen?: boolean;
   screen_width?: boolean;
+  px?: string;
+  py?: string;
   className?: string;
 };
 const {
   title = "Section",
   full_screen = false,
   screen_width = true,
+  px = "4",
+  py = "10",
   className = "",
 } = Astro.props;
 ---
 
 <section
   id={title.toLowerCase().replaceAll(" ", "")}
-  class={`${full_screen ? "h-screen" : ""} ${screen_width ? "w-screen" : ""} px-4 py-10 !overflow-x-hidden ${className}`}
+  class={`${full_screen ? "h-screen" : ""} ${screen_width ? "w-screen" : ""} px-${px} py-${py} !overflow-x-hidden ${className}`}
 >
   <div class="w-full grid place-items-center">
     <h2 class="text-4xl md:text-6xl text-center">{`<${title} />`}</h2>
   </div>
-  <div class="w-full mt-10 px-4">
+  <div class={`w-full mt-10 px-${px} py-${py}`}>
     <slot />
   </div>
 </section>

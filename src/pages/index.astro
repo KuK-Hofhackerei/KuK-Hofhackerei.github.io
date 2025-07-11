@@ -87,13 +87,13 @@ const posts = (await getCollection("blog")).sort(
     </div>
   </Section>
 
-  <Section title="Our Supporters" screen_width={false} className="w-2/3 m-auto">
+  <Section title="Our Supporters" screen_width={false} py="0" className="md:w-2/3 md:py-10 m-auto">
     {
       SUPPORTERS.map((tier) => (
-        <SubSection title={tier.tier}>
+        <SubSection title={tier.tier} py="0" className="md:py-10">
           <div class="w-full flex flex-wrap">
             {tier.supporters.map((supporter) => (
-              <div class="w-1/2 p-8">
+              <div class="w-1/2 p-2 md:p-8 py-4">
                 <a href={supporter.href} class="w-full">
                   <Image
                     src={supporter.image}
@@ -108,4 +108,5 @@ const posts = (await getCollection("blog")).sort(
       ))
     }
   </Section>
+  <div class="py-10"></div>
 </Layout>
