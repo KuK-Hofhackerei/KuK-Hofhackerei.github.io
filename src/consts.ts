@@ -87,12 +87,13 @@ export const SUPPORTERS: { [tier: string]: Array<{ name: string; image: ImageMet
     {
       name: "Johannes Kepler University Linz",
       image: jku,
+      imageClasses: `max-h-8 md:max-h-24`,
       href: "https://www.jku.at",
     },
     {
       name: "FH St. Pölten",
       image: fhstp,
-      imageClasses: `max-h-24`,
+      imageClasses: `max-h-12 md:max-h-24`,
       href: "https://www.fhstp.ac.at",
     },
   ],

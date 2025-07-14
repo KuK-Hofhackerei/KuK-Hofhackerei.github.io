@@ -91,12 +91,12 @@ const posts = (await getCollection("blog")).sort(
       <SubSection title="Platinum" py="0" className="md:py-10">
         <div class="w-full flex flex-wrap items-center justify-center">
           {SUPPORTERS["Platinum"].map((supporter) => (
-            <div class="p-2 md:p-8 py-4">
+            <div class="w-1/2 p-2 md:p-8 py-4">
               <a href={supporter.href} class="w-full">
                 <Image
                   src={supporter.image}
                   alt={supporter.name}
-                  className={`w-full max-h-32 ${supporter.imageClasses || ''}`}
+                  className={`w-full max-h-24 ${supporter.imageClasses || ''}`}
                 />
               </a>
             </div>
