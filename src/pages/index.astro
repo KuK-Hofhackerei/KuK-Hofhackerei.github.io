@@ -91,7 +91,7 @@ const posts = (await getCollection("blog")).sort(
       <SubSection title="Platinum" py="0" className="md:py-10">
         <div class="w-full flex flex-wrap items-center justify-around">
           {SUPPORTERS["Platinum"].map((supporter) => (
-            <div class="w-1/2 min-w-80 py-4 px-8 md:py-8 md:px-16">
+            <div class="w-1/2 py-4 px-8 md:py-8 md:px-16" style="min-width: min(300px, 100%);">
               <a href={supporter.href} class="w-full">
                 <Image
                   src={supporter.image}
@@ -106,7 +106,7 @@ const posts = (await getCollection("blog")).sort(
       <SubSection title="Gold" py="0" className="md:py-10">
         <div class="w-full flex flex-wrap items-center justify-around">
           {SUPPORTERS["Gold"].map((supporter) => (
-            <div class="w-1/2 min-w-80 py-4 px-8 md:py-8 md:px-16">
+            <div class="w-1/2 py-4 px-8 md:py-8 md:px-16" style="min-width: min(300px, 100%);">
               <a href={supporter.href} class="w-full">
                 <Image
                   src={supporter.image}
@@ -119,9 +119,9 @@ const posts = (await getCollection("blog")).sort(
         </div>
       </SubSection>
       <SubSection title="Silver" py="0" className="md:py-10">
-        <div class="w-full flex flex-wrap items-center justify-around flex-grow">
+        <div class="w-full flex flex-wrap items-center justify-around">
           {SUPPORTERS["Silver"].map((supporter) => (
-            <div class="w-1/3 min-w-36 py-4 px-8 md:py-8 md:px-16">
+            <div class="w-1/3 py-4 px-4 md:py-8 md:px-8" style="min-width: min(200px, 100%);">
               <a href={supporter.href} class="w-full">
                 <Image
                   src={supporter.image}
