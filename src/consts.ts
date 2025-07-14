@@ -74,28 +74,24 @@ export const SUPPORTERS: { [tier: string]: Array<{ name: string; image: ImageMet
   ],
   "Silver": [
     {
-      name: "Bosch",
-      image: bosch,
-      href: "https://www.bosch.at/",
-      itemClasses: "md:order-1"
-    },
-    {
       name: "Siemens",
       image: siemens,
       href: "https://siemens.at",
-      itemClasses: "md:order-3"
+    },
+    {
+      name: "Bosch",
+      image: bosch,
+      href: "https://www.bosch.at/",
     },
     {
       name: "Johannes Kepler University Linz",
       image: jku,
       href: "https://www.jku.at",
-      itemClasses: "md:order-2"
     },
     {
       name: "FH St. Pölten",
       image: fhstp,
       href: "https://www.fhstp.ac.at",
-      itemClasses: "md:order-4"
     },
   ],
 };
