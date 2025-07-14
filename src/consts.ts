@@ -52,7 +52,6 @@ export const SUPPORTERS: { [tier: string]: Array<{ name: string; image: ImageMet
       {
         name: "Erste Bank",
         image: erstebank,
-        imageClasses: `max-h-40`,
         href: "https://www.erstebank.at/",
       },
     ],
@@ -75,11 +74,6 @@ export const SUPPORTERS: { [tier: string]: Array<{ name: string; image: ImageMet
   ],
   "Silver": [
     {
-      name: "Siemens",
-      image: siemens,
-      href: "https://siemens.at",
-    },
-    {
       name: "Bosch",
       image: bosch,
       href: "https://www.bosch.at/",
@@ -87,13 +81,16 @@ export const SUPPORTERS: { [tier: string]: Array<{ name: string; image: ImageMet
     {
       name: "Johannes Kepler University Linz",
       image: jku,
-      imageClasses: `max-h-8 md:max-h-24`,
       href: "https://www.jku.at",
+    },
+    {
+      name: "Siemens",
+      image: siemens,
+      href: "https://siemens.at",
     },
     {
       name: "FH St. Pölten",
       image: fhstp,
-      imageClasses: `max-h-12 md:max-h-24`,
       href: "https://www.fhstp.ac.at",
     },
   ],

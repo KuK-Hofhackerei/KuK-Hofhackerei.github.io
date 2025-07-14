@@ -88,45 +88,45 @@ const posts = (await getCollection("blog")).sort(
   </Section>
 
   <Section title="Our Supporters" screen_width={false} py="0" className="md:w-2/3 md:py-10 m-auto">
-      <SubSection title="Platinum" py="0" className="md:py-10">
-        <div class="w-full flex flex-wrap items-center justify-around">
+      <SubSection title="Platinum" py="0" className="md:py-10 mt-16">
+        <div class="w-full mt-16 flex flex-wrap items-center stretch justify-around gap-x-16 gap-y-16">
           {SUPPORTERS["Platinum"].map((supporter) => (
-            <div class="w-1/2 py-4 px-8 md:py-8 md:px-16" style="min-width: min(300px, 100%);">
+            <div class="w-3/7" style="min-width: min(300px, 100%);">
               <a href={supporter.href} class="w-full">
                 <Image
                   src={supporter.image}
                   alt={supporter.name}
-                  className={`w-full max-h-24 ${supporter.imageClasses || ''}`}
+                  className={`w-full md:max-h-24 ${supporter.imageClasses || ''}`}
                 />
               </a>
             </div>
           ))}
         </div>
       </SubSection>
-      <SubSection title="Gold" py="0" className="md:py-10">
-        <div class="w-full flex flex-wrap items-center justify-around">
+      <SubSection title="Gold" py="0" className="md:py-10 mt-16">
+        <div class="w-full mt-16 flex flex-wrap items-center justify-around gap-x-16 gap-y-16">
           {SUPPORTERS["Gold"].map((supporter) => (
-            <div class="w-1/2 py-4 px-8 md:py-8 md:px-16" style="min-width: min(300px, 100%);">
+            <div class="w-1/3" style="min-width: min(300px, 100%);">
               <a href={supporter.href} class="w-full">
                 <Image
                   src={supporter.image}
                   alt={supporter.name}
-                  className={`w-full max-h-24 ${supporter.imageClasses || ''}`}
+                  className={`w-full md:max-h-24 ${supporter.imageClasses || ''}`}
                 />
               </a>
             </div>
           ))}
         </div>
       </SubSection>
-      <SubSection title="Silver" py="0" className="md:py-10">
-        <div class="w-full flex flex-wrap items-center justify-around">
+      <SubSection title="Silver" py="0" className="md:py-10 mt-16">
+        <div class="w-full mt-16 flex flex-wrap items-center justify-around gap-x-32 gap-y-16">
           {SUPPORTERS["Silver"].map((supporter) => (
-            <div class="w-1/3 py-4 px-4 md:py-8 md:px-8" style="min-width: min(200px, 100%);">
+            <div class="w-2/7" style="min-width: min(200px, 100%);">
               <a href={supporter.href} class="w-full">
                 <Image
                   src={supporter.image}
                   alt={supporter.name}
-                  className={`w-full max-h-16 ${supporter.imageClasses || ''}`}
+                  className={`w-full md:max-h-20 ${supporter.imageClasses || ''}`}
                 />
               </a>
             </div>
