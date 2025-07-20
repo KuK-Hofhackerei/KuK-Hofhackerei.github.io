@@ -76,6 +76,7 @@ export const SUPPORTERS: { [tier: string]: Array<{ name: string; image: ImageMet
     {
       name: "Siemens",
       image: siemens,
+      imageClasses: "py-0 md:py-2",
       href: "https://siemens.at",
     },
     {
@@ -86,11 +87,13 @@ export const SUPPORTERS: { [tier: string]: Array<{ name: string; image: ImageMet
     {
       name: "Johannes Kepler University Linz",
       image: jku,
+      imageClasses: "px-4 md:px-0",
       href: "https://www.jku.at",
     },
     {
       name: "FH St. Pölten",
       image: fhstp,
+      imageClasses: "px-12 md:px-0",
       href: "https://www.fhstp.ac.at",
     },
   ],
