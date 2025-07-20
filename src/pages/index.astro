@@ -27,37 +27,6 @@ const posts = (await getCollection("blog")).sort(
     </div>
   </Section>
 
-  <Section
-    title="Support us"
-  >
-    <!-- TODO Once we have some, add our sponsors here -->
-    <div class="w-full grid place-items-center">
-      <div
-        class="max-w-4xl text-xl md:text-lg opacity-90 text-center justify-evenly"
-      >
-        We offer multiple levels of sponsorship with increasing benefits and visibility.
-        Each tier builds upon the previous and includes the benefits described below.
-        We are also happy to tailor a custom sponsorship package to match your
-        brand’s goals and values.
-      </div>
-    </div>
-    <div class="flex flex-row justify-center items-center mt-6 items-stretch flex-wrap gap-4 text-center">
-      <div class="w-1/6 border-2 p-3 rounded-lg flex items-center justify-center min-w-80">
-        <span>
-          Become a supporter: <br/>Download our brochure
-          (
-          <a href="/dc33-kuk-sponsors-en.pdf" target="_blank" class="underline">EN</a>
-          /
-          <a href="/dc33-kuk-sponsors-de.pdf" target="_blank" class="underline">DE</a>
-          )
-        </span>
-      </div>
-      <a href="mailto:kukhofhackerei@gmail.com" class="w-1/6 border-2 p-3 rounded-lg flex items-center justify-center min-w-80 text-center">
-        Questions: Contact us directly
-      </a>
-    </div>
-  </Section>
-
   <Section title="Members" full_screen={false}>
     <div class="w-full grid place-items-center">
       <div
@@ -134,5 +103,37 @@ const posts = (await getCollection("blog")).sort(
         </div>
       </SubSection>
   </Section>
+
+  <Section
+    title="Support us"
+  >
+    <!-- TODO Once we have some, add our sponsors here -->
+    <div class="w-full grid place-items-center">
+      <div
+        class="max-w-4xl text-xl md:text-lg opacity-90 text-center justify-evenly"
+      >
+        We offer multiple levels of sponsorship with increasing benefits and visibility.
+        Each tier builds upon the previous and includes the benefits described below.
+        We are also happy to tailor a custom sponsorship package to match your
+        brand’s goals and values.
+      </div>
+    </div>
+    <div class="flex flex-row justify-center items-center mt-6 items-stretch flex-wrap gap-4 text-center">
+      <div class="w-1/6 border-2 p-3 rounded-lg flex items-center justify-center min-w-80">
+        <span>
+          Become a supporter: <br/>Download our brochure
+          (
+          <a href="/dc33-kuk-sponsors-en.pdf" target="_blank" class="underline">EN</a>
+          /
+          <a href="/dc33-kuk-sponsors-de.pdf" target="_blank" class="underline">DE</a>
+          )
+        </span>
+      </div>
+      <a href="mailto:kukhofhackerei@gmail.com" class="w-1/6 border-2 p-3 rounded-lg flex items-center justify-center min-w-80 text-center">
+        Questions: Contact us directly
+      </a>
+    </div>
+  </Section>
+
   <div class="py-10"></div>
 </Layout>
