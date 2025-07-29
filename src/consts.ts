@@ -30,3 +30,71 @@ export const NAV_LINKS: Array<{ title: string; href?: string }> = [
     title: "Blog",
   },
 ];
+import dynatrace from "@/assets/dynatrace.png";
+import erstebank from "@/assets/erstebank.svg";
+import bosch from "@/assets/bosch.svg";
+import siemens from "@/assets/siemens.svg";
+import tuwien from "@/assets/cysec.svg";
+import tugraz from "@/assets/tugraz.svg";
+import sba from "@/assets/sba.svg";
+import fhstp from "@/assets/fhstp.svg";
+import jku from "@/assets/jku.svg";
+
+import type { ImageMetadata } from "astro";
+export const SUPPORTERS: { [tier: string]: Array<{ name: string; image: ImageMetadata; imageClasses?: string; itemClasses?: string; href: string }> } = {
+  "Platinum":
+    [
+      {
+        name: "dynatrace",
+        image: dynatrace,
+        href: "https://www.dynatrace.com/",
+      },
+      {
+        name: "Erste Bank",
+        image: erstebank,
+        href: "https://www.erstebank.at/",
+      },
+    ],
+  "Gold": [
+    {
+      name: "TU Wien CYSEC",
+      image: tuwien,
+      href: "https://tuwien.ac.at",
+    },
+    {
+      name: "TU Graz ISEC",
+      image: tugraz,
+      href: "https://tugraz.at",
+    },
+    {
+      name: "SBA-Research",
+      image: sba,
+      href: "https://sba-research.org",
+    },
+  ],
+  "Silver": [
+    {
+      name: "Siemens",
+      image: siemens,
+      imageClasses: "py-0 md:py-2",
+      href: "https://siemens.at",
+    },
+    {
+      name: "Bosch",
+      image: bosch,
+      href: "https://www.bosch.at/",
+    },
+    {
+      name: "Johannes Kepler University Linz",
+      image: jku,
+      imageClasses: "px-4 md:px-0",
+      href: "https://www.jku.at",
+    },
+    {
+      name: "FH St. Pölten",
+      image: fhstp,
+      imageClasses: "px-12 md:px-0",
+      href: "https://www.fhstp.ac.at",
+    },
+  ],
+};
