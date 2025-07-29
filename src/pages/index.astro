@@ -57,6 +57,15 @@ const posts = (await getCollection("blog")).sort(
   </Section>
 
   <Section title="Supporters" screen_width={false} py="0" className="mt-16 md:w-2/3 md:py-10 m-auto">
+    <div class="w-full grid place-items-center">
+      <div
+          class="max-w-3xl text-xl md:text-lg opacity-90 text-center justify-evenly"
+      >
+        We are grateful to our sponsors who empower us to compete on the global stage.
+        Their vital support drives our success, and we thank them for their commitment to fostering
+        innovation and education within the cybersecurity community.
+      </div>
+    </div>
       <SubSection title="Platinum" py="0" className="md:py-10">
         <div class="w-full mt-16 flex flex-wrap items-center stretch justify-around gap-x-32 gap-y-24">
           {SUPPORTERS["Platinum"].map((supporter) => (
